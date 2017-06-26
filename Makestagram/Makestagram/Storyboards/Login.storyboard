@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2104" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="goc-zu-MnB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Sn7-bC-pd3">
+            <objects>
+                <viewController id="goc-zu-MnB" customClass="LoginViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3yk-29-26N"/>
+                        <viewControllerLayoutGuide type="bottom" id="QcK-1q-0xs"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="eK5-EQ-QVA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wLe-pJ-v42">
+                                <rect key="frame" x="0.0" y="20" width="375" height="214"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="4gy-kB-M7N">
+                                        <rect key="frame" x="68" y="55" width="240" height="104.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Makestagram" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wql-0a-IgY">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="43.5"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="36"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up to see photos and videos from your friends" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kim-MB-ArJ">
+                                                <rect key="frame" x="0.0" y="68.5" width="240" height="36"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="240" id="AAf-Qv-Pmh"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.41568627450980389" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="4gy-kB-M7N" firstAttribute="centerX" secondItem="wLe-pJ-v42" secondAttribute="centerX" id="5hT-zC-DLg"/>
+                                    <constraint firstItem="4gy-kB-M7N" firstAttribute="centerY" secondItem="wLe-pJ-v42" secondAttribute="centerY" id="6mQ-78-sia"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZ1-88-mlF">
+                                <rect key="frame" x="51" y="259" width="273" height="44"/>
+                                <color key="backgroundColor" red="0.2196078431372549" green="0.59215686274509804" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="gtr-aT-yWY"/>
+                                </constraints>
+                                <state key="normal" title="Register or Log In"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="UZ1-88-mlF" firstAttribute="top" secondItem="wLe-pJ-v42" secondAttribute="bottom" constant="25" id="5Tu-en-R8c"/>
+                            <constraint firstItem="QcK-1q-0xs" firstAttribute="top" secondItem="wLe-pJ-v42" secondAttribute="bottom" constant="433" id="AZR-G6-DyT"/>
+                            <constraint firstItem="UZ1-88-mlF" firstAttribute="leading" secondItem="eK5-EQ-QVA" secondAttribute="leadingMargin" constant="35" id="B4H-J8-0dp"/>
+                            <constraint firstItem="wLe-pJ-v42" firstAttribute="top" secondItem="3yk-29-26N" secondAttribute="bottom" id="NT1-xw-ybX"/>
+                            <constraint firstAttribute="trailing" secondItem="wLe-pJ-v42" secondAttribute="trailing" id="au4-qy-Zsv"/>
+                            <constraint firstItem="wLe-pJ-v42" firstAttribute="leading" secondItem="eK5-EQ-QVA" secondAttribute="leading" id="sw1-Pw-etE"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UZ1-88-mlF" secondAttribute="trailing" constant="35" id="was-gd-Iux"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wAp-eR-28P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="17.541229385307346"/>
+        </scene>
+    </scenes>
+</document>
