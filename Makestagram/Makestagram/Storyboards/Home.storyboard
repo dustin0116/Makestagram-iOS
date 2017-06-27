@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F2104" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sqB-UH-CxU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="E7h-ZO-hwp">
+            <objects>
+                <viewController id="DiQ-32-085" customClass="HomeViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eRZ-mP-XMQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="GrB-EM-3oi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7jb-oD-YCw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hMV-Ue-Xrv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostImageCell" id="W7S-Hw-9HS">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="W7S-Hw-9HS" id="Xna-22-SsE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="DiQ-32-085" id="8iz-Ae-mHW"/>
+                                    <outlet property="delegate" destination="DiQ-32-085" id="o4o-oi-LUD"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GrB-EM-3oi" firstAttribute="top" secondItem="hMV-Ue-Xrv" secondAttribute="bottom" id="NB3-or-yfr"/>
+                            <constraint firstItem="hMV-Ue-Xrv" firstAttribute="top" secondItem="eRZ-mP-XMQ" secondAttribute="bottom" constant="-64" id="eLs-PW-lHN"/>
+                            <constraint firstAttribute="trailing" secondItem="hMV-Ue-Xrv" secondAttribute="trailing" id="mSL-V8-YKM"/>
+                            <constraint firstItem="hMV-Ue-Xrv" firstAttribute="top" secondItem="7jb-oD-YCw" secondAttribute="top" id="tGZ-3e-B4Y"/>
+                            <constraint firstItem="hMV-Ue-Xrv" firstAttribute="leading" secondItem="7jb-oD-YCw" secondAttribute="leading" id="vdn-7O-Xe4"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5OF-aR-8DF"/>
+                    <connections>
+                        <outlet property="tableView" destination="hMV-Ue-Xrv" id="qAx-2h-cN3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SGf-PP-Wlk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1520.8" y="-375.56221889055473"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="URn-vD-FkZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="sqB-UH-CxU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="30q-3F-vDT">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xKS-eV-zKb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="DiQ-32-085" kind="relationship" relationship="rootViewController" id="gJZ-0R-kgK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JDp-UT-fqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="581.60000000000002" y="-375.56221889055473"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_home_black" width="25" height="25"/>
+    </resources>
+</document>

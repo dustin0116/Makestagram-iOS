@@ -28,6 +28,7 @@
 		B4071B1A1F03039E0063F677 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B191F03039E0063F677 /* UIImage+Size.swift */; };
 		B4FDCAD81F017B4E00E62E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */; };
 		B4FF47941F0304D80061E410 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF47931F0304D80061E410 /* StorageReference+Post.swift */; };
+		B4FF47961F0307BB0061E410 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FF47951F0307BB0061E410 /* Home.storyboard */; };
 		C7C44AFEDCC107497596F3BA /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E52F16A96A8465EEF51558 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		B4FDCACD1F017B4E00E62E4A /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4FF47931F0304D80061E410 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StorageReference+Post.swift"; path = "Extensions/StorageReference+Post.swift"; sourceTree = "<group>"; };
+		B4FF47951F0307BB0061E410 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Home.storyboard; path = Storyboards/Home.storyboard; sourceTree = "<group>"; };
 		E3CD9B8E034D8112E4278920 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		E3E52F16A96A8465EEF51558 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B4071AE71F017D860063F677 /* Main.storyboard */,
+				B4FF47951F0307BB0061E410 /* Home.storyboard */,
 				B4071AF51F017FF30063F677 /* Login.storyboard */,
 			);
 			name = Storyboards;
@@ -261,6 +264,7 @@
 				B4071AE91F017D860063F677 /* Main.storyboard in Resources */,
 				B4071AED1F017D8D0063F677 /* GoogleService-Info.plist in Resources */,
 				B4FDCAD81F017B4E00E62E4A /* Assets.xcassets in Resources */,
+				B4FF47961F0307BB0061E410 /* Home.storyboard in Resources */,
 				B4071AF61F017FF30063F677 /* Login.storyboard in Resources */,
 				B4071AE81F017D860063F677 /* LaunchScreen.storyboard in Resources */,
 			);
