@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B4071AE31F017D750063F677 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071AE21F017D750063F677 /* AppDelegate.swift */; };
-		B4071AE51F017D7C0063F677 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071AE41F017D7C0063F677 /* ViewController.swift */; };
 		B4071AE81F017D860063F677 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4071AE61F017D860063F677 /* LaunchScreen.storyboard */; };
 		B4071AE91F017D860063F677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4071AE71F017D860063F677 /* Main.storyboard */; };
 		B4071AED1F017D8D0063F677 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4071AEB1F017D8D0063F677 /* GoogleService-Info.plist */; };
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		0A274F447137BC044191C687 /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		B4071AE21F017D750063F677 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4071AE41F017D7C0063F677 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
 		B4071AE61F017D860063F677 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4071AE71F017D860063F677 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Storyboards/Main.storyboard; sourceTree = "<group>"; };
 		B4071AEA1F017D8D0063F677 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 		B4071AEF1F017DAD0063F677 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B4071AE41F017D7C0063F677 /* ViewController.swift */,
 				B4071AF71F0180010063F677 /* LoginViewController.swift */,
 				B4071B051F02C0590063F677 /* CreateUsernameViewController.swift */,
 			);
@@ -293,7 +290,6 @@
 				B4071B001F01B91F0063F677 /* UserService.swift in Sources */,
 				B4071B041F02C0510063F677 /* User.swift in Sources */,
 				B4071B091F02C1F10063F677 /* Storyboard+Utility.swift in Sources */,
-				B4071AE51F017D7C0063F677 /* ViewController.swift in Sources */,
 				B4071B021F02C01E0063F677 /* Constants.swift in Sources */,
 				B4071AE31F017D750063F677 /* AppDelegate.swift in Sources */,
 				B4071B061F02C0590063F677 /* CreateUsernameViewController.swift in Sources */,
