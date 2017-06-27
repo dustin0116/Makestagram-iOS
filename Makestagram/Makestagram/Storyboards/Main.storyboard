@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--View Controller-->
         <scene sceneID="9BR-RU-M0N">
             <objects>
                 <viewController id="3pT-7k-4BD" sceneMemberID="viewController">
@@ -22,13 +22,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="i0D-kR-N5b"/>
+                    <tabBarItem key="tabBarItem" title="" image="tab_plus_black" id="i0D-kR-N5b">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RVS-Qf-sXC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="582" y="404"/>
+            <point key="canvasLocation" x="582" y="593"/>
         </scene>
-        <!--Item 1-->
+        <!--View Controller-->
         <scene sceneID="E7h-ZO-hwp">
             <objects>
                 <viewController id="DiQ-32-085" sceneMemberID="viewController">
@@ -41,11 +43,34 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="30q-3F-vDT"/>
+                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="30q-3F-vDT">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SGf-PP-Wlk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="582" y="-250"/>
+            <point key="canvasLocation" x="582" y="-375"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2WF-2c-pWa">
+            <objects>
+                <viewController id="SY2-sc-xLo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="F0n-oh-27l"/>
+                        <viewControllerLayoutGuide type="bottom" id="bgg-OH-39x"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2j2-RM-HIN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="tab_profile_black" id="1G7-Vp-sgj">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9By-rd-RKw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1514" y="77"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="bAq-2Z-YCv">
@@ -59,6 +84,7 @@
                     <connections>
                         <segue destination="DiQ-32-085" kind="relationship" relationship="viewControllers" id="auh-EQ-hzu"/>
                         <segue destination="3pT-7k-4BD" kind="relationship" relationship="viewControllers" id="oBr-Qj-31P"/>
+                        <segue destination="SY2-sc-xLo" kind="relationship" relationship="viewControllers" id="NjN-GE-GKg"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z1t-He-drK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -66,4 +92,9 @@
             <point key="canvasLocation" x="-369" y="77"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_home_black" width="25" height="25"/>
+        <image name="tab_plus_black" width="25" height="25"/>
+        <image name="tab_profile_black" width="25" height="25"/>
+    </resources>
 </document>
