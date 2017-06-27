@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="1514" y="77"/>
         </scene>
-        <!--Main Tab Bar View Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="bAq-2Z-YCv">
             <objects>
-                <tabBarController id="zlK-Aw-8da" customClass="MainTabBarViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController id="zlK-Aw-8da" customClass="MainTabBarController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="13d-F9-o6p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
