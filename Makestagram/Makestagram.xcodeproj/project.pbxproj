@@ -24,7 +24,10 @@
 		B4071B121F02DFEA0063F677 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B111F02DFEA0063F677 /* MGPhotoHelper.swift */; };
 		B4071B141F02FA960063F677 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B131F02FA960063F677 /* StorageService.swift */; };
 		B4071B161F02FC6C0063F677 /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B151F02FC6C0063F677 /* PostService.swift */; };
+		B4071B181F02FF4A0063F677 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B171F02FF4A0063F677 /* Post.swift */; };
+		B4071B1A1F03039E0063F677 /* UIImage+Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B191F03039E0063F677 /* UIImage+Size.swift */; };
 		B4FDCAD81F017B4E00E62E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */; };
+		B4FF47941F0304D80061E410 /* StorageReference+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF47931F0304D80061E410 /* StorageReference+Post.swift */; };
 		C7C44AFEDCC107497596F3BA /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E52F16A96A8465EEF51558 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,8 +51,11 @@
 		B4071B111F02DFEA0063F677 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGPhotoHelper.swift; path = Helpers/MGPhotoHelper.swift; sourceTree = "<group>"; };
 		B4071B131F02FA960063F677 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageService.swift; path = Services/StorageService.swift; sourceTree = "<group>"; };
 		B4071B151F02FC6C0063F677 /* PostService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostService.swift; path = Services/PostService.swift; sourceTree = "<group>"; };
+		B4071B171F02FF4A0063F677 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Post.swift; path = Models/Post.swift; sourceTree = "<group>"; };
+		B4071B191F03039E0063F677 /* UIImage+Size.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Size.swift"; path = "Extensions/UIImage+Size.swift"; sourceTree = "<group>"; };
 		B4FDCACD1F017B4E00E62E4A /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4FF47931F0304D80061E410 /* StorageReference+Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "StorageReference+Post.swift"; path = "Extensions/StorageReference+Post.swift"; sourceTree = "<group>"; };
 		E3CD9B8E034D8112E4278920 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		E3E52F16A96A8465EEF51558 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				B4071B031F02C0510063F677 /* User.swift */,
+				B4071B171F02FF4A0063F677 /* Post.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -137,6 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				B4071B081F02C1F10063F677 /* Storyboard+Utility.swift */,
+				B4071B191F03039E0063F677 /* UIImage+Size.swift */,
+				B4FF47931F0304D80061E410 /* StorageReference+Post.swift */,
 			);
 			name = Extensions;
 			path = Makestagram;
@@ -317,10 +326,13 @@
 				B4071B001F01B91F0063F677 /* UserService.swift in Sources */,
 				B4071B041F02C0510063F677 /* User.swift in Sources */,
 				B4071B0B1F02CB7A0063F677 /* HomeViewController.swift in Sources */,
+				B4071B181F02FF4A0063F677 /* Post.swift in Sources */,
+				B4071B1A1F03039E0063F677 /* UIImage+Size.swift in Sources */,
 				B4071B091F02C1F10063F677 /* Storyboard+Utility.swift in Sources */,
 				B4071B121F02DFEA0063F677 /* MGPhotoHelper.swift in Sources */,
 				B4071B0F1F02D8C40063F677 /* MainTabBarController.swift in Sources */,
 				B4071B0D1F02CB890063F677 /* FindFriendsViewController.swift in Sources */,
+				B4FF47941F0304D80061E410 /* StorageReference+Post.swift in Sources */,
 				B4071B021F02C01E0063F677 /* Constants.swift in Sources */,
 				B4071B161F02FC6C0063F677 /* PostService.swift in Sources */,
 				B4071AE31F017D750063F677 /* AppDelegate.swift in Sources */,
