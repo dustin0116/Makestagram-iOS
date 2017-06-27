@@ -20,6 +20,7 @@
 		B4071B091F02C1F10063F677 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B081F02C1F10063F677 /* Storyboard+Utility.swift */; };
 		B4071B0B1F02CB7A0063F677 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B0A1F02CB7A0063F677 /* HomeViewController.swift */; };
 		B4071B0D1F02CB890063F677 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B0C1F02CB890063F677 /* FindFriendsViewController.swift */; };
+		B4071B0F1F02D8C40063F677 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B0E1F02D8C40063F677 /* MainTabBarViewController.swift */; };
 		B4FDCAD81F017B4E00E62E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */; };
 		C7C44AFEDCC107497596F3BA /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E52F16A96A8465EEF51558 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +41,7 @@
 		B4071B081F02C1F10063F677 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Storyboard+Utility.swift"; path = "Extensions/Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		B4071B0A1F02CB7A0063F677 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controllers/HomeViewController.swift; sourceTree = "<group>"; };
 		B4071B0C1F02CB890063F677 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendsViewController.swift; path = Controllers/FindFriendsViewController.swift; sourceTree = "<group>"; };
+		B4071B0E1F02D8C40063F677 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainTabBarViewController.swift; path = Controllers/MainTabBarViewController.swift; sourceTree = "<group>"; };
 		B4FDCACD1F017B4E00E62E4A /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3CD9B8E034D8112E4278920 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				B4071B051F02C0590063F677 /* CreateUsernameViewController.swift */,
 				B4071B0A1F02CB7A0063F677 /* HomeViewController.swift */,
 				B4071B0C1F02CB890063F677 /* FindFriendsViewController.swift */,
+				B4071B0E1F02D8C40063F677 /* MainTabBarViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				B4071B041F02C0510063F677 /* User.swift in Sources */,
 				B4071B0B1F02CB7A0063F677 /* HomeViewController.swift in Sources */,
 				B4071B091F02C1F10063F677 /* Storyboard+Utility.swift in Sources */,
+				B4071B0F1F02D8C40063F677 /* MainTabBarViewController.swift in Sources */,
 				B4071B0D1F02CB890063F677 /* FindFriendsViewController.swift in Sources */,
 				B4071B021F02C01E0063F677 /* Constants.swift in Sources */,
 				B4071AE31F017D750063F677 /* AppDelegate.swift in Sources */,
