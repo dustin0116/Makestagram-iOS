@@ -30,10 +30,10 @@
             </objects>
             <point key="canvasLocation" x="582" y="593"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="E7h-ZO-hwp">
             <objects>
-                <viewController id="DiQ-32-085" sceneMemberID="viewController">
+                <viewController id="DiQ-32-085" customClass="HomeViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eRZ-mP-XMQ"/>
                         <viewControllerLayoutGuide type="bottom" id="GrB-EM-3oi"/>
@@ -51,10 +51,10 @@
             </objects>
             <point key="canvasLocation" x="582" y="-375"/>
         </scene>
-        <!--View Controller-->
+        <!--Find Friends View Controller-->
         <scene sceneID="2WF-2c-pWa">
             <objects>
-                <viewController id="SY2-sc-xLo" sceneMemberID="viewController">
+                <viewController id="SY2-sc-xLo" customClass="FindFriendsViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="F0n-oh-27l"/>
                         <viewControllerLayoutGuide type="bottom" id="bgg-OH-39x"/>
@@ -64,7 +64,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_profile_black" id="1G7-Vp-sgj">
+                    <tabBarItem key="tabBarItem" title="" image="tab_find_friends_black" id="1G7-Vp-sgj">
                         <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
                     </tabBarItem>
                 </viewController>
@@ -93,8 +93,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="tab_find_friends_black" width="25" height="25"/>
         <image name="tab_home_black" width="25" height="25"/>
         <image name="tab_plus_black" width="25" height="25"/>
-        <image name="tab_profile_black" width="25" height="25"/>
     </resources>
 </document>
