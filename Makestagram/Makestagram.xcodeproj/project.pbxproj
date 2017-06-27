@@ -14,9 +14,11 @@
 		B4071AED1F017D8D0063F677 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4071AEB1F017D8D0063F677 /* GoogleService-Info.plist */; };
 		B4071AF61F017FF30063F677 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4071AF51F017FF30063F677 /* Login.storyboard */; };
 		B4071AF81F0180010063F677 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071AF71F0180010063F677 /* LoginViewController.swift */; };
-		B4071AFB1F01A8FB0063F677 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071AFA1F01A8FB0063F677 /* User.swift */; };
-		B4071AFD1F01B3DC0063F677 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071AFC1F01B3DC0063F677 /* CreateUsernameViewController.swift */; };
 		B4071B001F01B91F0063F677 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071AFF1F01B91F0063F677 /* UserService.swift */; };
+		B4071B021F02C01E0063F677 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B011F02C01E0063F677 /* Constants.swift */; };
+		B4071B041F02C0510063F677 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B031F02C0510063F677 /* User.swift */; };
+		B4071B061F02C0590063F677 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B051F02C0590063F677 /* CreateUsernameViewController.swift */; };
+		B4071B091F02C1F10063F677 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4071B081F02C1F10063F677 /* Storyboard+Utility.swift */; };
 		B4FDCAD81F017B4E00E62E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */; };
 		C7C44AFEDCC107497596F3BA /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E52F16A96A8465EEF51558 /* Pods_Makestagram.framework */; };
 /* End PBXBuildFile section */
@@ -31,9 +33,11 @@
 		B4071AEB1F017D8D0063F677 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B4071AF51F017FF30063F677 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Login.storyboard; path = Storyboards/Login.storyboard; sourceTree = "<group>"; };
 		B4071AF71F0180010063F677 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
-		B4071AFA1F01A8FB0063F677 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B4071AFC1F01B3DC0063F677 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		B4071AFF1F01B91F0063F677 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Services/UserService.swift; sourceTree = "<group>"; };
+		B4071B011F02C01E0063F677 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Supporting/Constants.swift; sourceTree = "<group>"; };
+		B4071B031F02C0510063F677 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		B4071B051F02C0590063F677 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controllers/CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		B4071B081F02C1F10063F677 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Storyboard+Utility.swift"; path = "Extensions/Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		B4FDCACD1F017B4E00E62E4A /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3CD9B8E034D8112E4278920 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,7 +87,7 @@
 			children = (
 				B4071AE41F017D7C0063F677 /* ViewController.swift */,
 				B4071AF71F0180010063F677 /* LoginViewController.swift */,
-				B4071AFC1F01B3DC0063F677 /* CreateUsernameViewController.swift */,
+				B4071B051F02C0590063F677 /* CreateUsernameViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -92,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				B4071AE61F017D860063F677 /* LaunchScreen.storyboard */,
+				B4071B011F02C01E0063F677 /* Constants.swift */,
 				B4071AEA1F017D8D0063F677 /* Info.plist */,
 				B4071AEB1F017D8D0063F677 /* GoogleService-Info.plist */,
 			);
@@ -101,7 +106,7 @@
 		B4071AF91F01A8E40063F677 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B4071AFA1F01A8FB0063F677 /* User.swift */,
+				B4071B031F02C0510063F677 /* User.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -114,11 +119,20 @@
 			name = Services;
 			sourceTree = "<group>";
 		};
+		B4071B071F02C1060063F677 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4071B081F02C1F10063F677 /* Storyboard+Utility.swift */,
+			);
+			name = Extensions;
+			path = Makestagram;
+			sourceTree = "<group>";
+		};
 		B4FDCAC41F017B4E00E62E4A = {
 			isa = PBXGroup;
 			children = (
 				B4FDCACF1F017B4E00E62E4A /* Makestagram */,
-				B4FDCACE1F017B4E00E62E4A /* Products */,
+				B4071B071F02C1060063F677 /* Extensions */,
 				B0B30D24423C468E9CA44791 /* Pods */,
 				ABED683A16AFABF6B8592D0F /* Frameworks */,
 			);
@@ -130,18 +144,20 @@
 				B4FDCACD1F017B4E00E62E4A /* Makestagram.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		B4FDCACF1F017B4E00E62E4A /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
 				B4071AE21F017D750063F677 /* AppDelegate.swift */,
-				B4071AFE1F01B9040063F677 /* Services */,
-				B4071AF91F01A8E40063F677 /* Models */,
+				B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */,
 				B4071AEF1F017DAD0063F677 /* Controllers */,
+				B4071AF91F01A8E40063F677 /* Models */,
+				B4FDCACE1F017B4E00E62E4A /* Products */,
+				B4071AFE1F01B9040063F677 /* Services */,
 				B4071AEE1F017DA50063F677 /* Storyboards */,
 				B4071AF01F017DC10063F677 /* Supporting */,
-				B4FDCAD71F017B4E00E62E4A /* Assets.xcassets */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -273,12 +289,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4071AFB1F01A8FB0063F677 /* User.swift in Sources */,
 				B4071AF81F0180010063F677 /* LoginViewController.swift in Sources */,
 				B4071B001F01B91F0063F677 /* UserService.swift in Sources */,
+				B4071B041F02C0510063F677 /* User.swift in Sources */,
+				B4071B091F02C1F10063F677 /* Storyboard+Utility.swift in Sources */,
 				B4071AE51F017D7C0063F677 /* ViewController.swift in Sources */,
-				B4071AFD1F01B3DC0063F677 /* CreateUsernameViewController.swift in Sources */,
+				B4071B021F02C01E0063F677 /* Constants.swift in Sources */,
 				B4071AE31F017D750063F677 /* AppDelegate.swift in Sources */,
+				B4071B061F02C0590063F677 /* CreateUsernameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
