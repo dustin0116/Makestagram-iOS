@@ -5,7 +5,6 @@
 //  Created by Dustin Hsiang on 6/26/17.
 //  Copyright © 2017 Dustin Hsiang. All rights reserved.
 //
-
 import UIKit
 import Firebase
 
