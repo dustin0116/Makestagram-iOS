@@ -107,6 +107,10 @@
                                                         <constraint firstAttribute="width" secondItem="hRF-Ox-xTz" secondAttribute="height" multiplier="1:1" id="Jwr-EI-iET"/>
                                                     </constraints>
                                                     <state key="normal" image="btn_heart_black_outline"/>
+                                                    <state key="selected" image="btn_heart_red_solid"/>
+                                                    <connections>
+                                                        <action selector="likeButtonTapped:" destination="uNb-5Q-9Bi" eventType="touchUpInside" id="IXh-pX-Fjk"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 LIkes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gnb-tP-NWE">
                                                     <rect key="frame" x="46.5" y="0.0" width="48" height="44.5"/>
@@ -138,6 +142,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="likeButton" destination="hRF-Ox-xTz" id="7aN-MT-Txp"/>
+                                            <outlet property="likeCountLabel" destination="gnb-tP-NWE" id="e0g-UV-OGg"/>
                                             <outlet property="timeAgoLabel" destination="gT9-ho-Obl" id="Fbq-Ir-NHe"/>
                                         </connections>
                                     </tableViewCell>
@@ -184,6 +190,7 @@
     </scenes>
     <resources>
         <image name="btn_heart_black_outline" width="24" height="24"/>
+        <image name="btn_heart_red_solid" width="24" height="24"/>
         <image name="btn_options_black" width="24" height="24"/>
         <image name="tab_home_black" width="25" height="25"/>
     </resources>
